@@ -18,8 +18,12 @@ body {
 }
 
 .top .header img {
-    width: 100%;
-    padding: 5px;
+    /* width: 100%; */
+    /* padding: 5px; */
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 130px;
+    height: 72px;
     box-sizing: border-box;
 }
 
@@ -36,7 +40,8 @@ body {
     width: 158px;
     height: 28px;
     float: left;
-    border: 1px solid #07A7E1;
+    margin-top: 20px;
+    /* border: 1px solid #07A7E1; */
     font-size: 14px;
 }
 
@@ -45,13 +50,16 @@ body {
     width: 80px;
     height: 30px;
     border: none;
-    background: #07A7E1;
+    margin-top: 20px;
+    /* background: #07A7E1; */
+    background-image: linear-gradient(to bottom, #fff, #c14099 70%, #fff);
     color: #fff;
     cursor: pointer;
 }
 
 .top .nav {
-    background: #07A7E1;
+    /* background: #07A7E1; */
+    background-image: linear-gradient(to bottom, #fff, #c14099 70%, #fff);
 }
 
 .top .nav ul {
@@ -67,7 +75,8 @@ body {
 }
 
 .top .nav ul li.active {
-    background: #0095bb;
+    /* background: #0095bb; */
+    background-image: linear-gradient(to bottom, #fff, lightpink 70%, #fff);
 }
 
 .top .nav ul li a {
@@ -77,7 +86,9 @@ body {
 }
 
 .top .nav ul li a:hover {
-    background: #0095bb;
+    /* background: #0095bb; */
+    background-image: linear-gradient(to bottom, #fff, lightpink 70%, #fff);
+
 }
 
 .container {
@@ -165,7 +176,9 @@ body {
 .container .list .paging .next {
     border: none;
     border-radius: 4px;
-    background: #2aabd2;
+    /* background: #2aabd2; */
+    background-image: linear-gradient(to bottom, #fff, #c14099 70%, #fff);
+
     width: 100px;
     height: 40px;
     color: #fff;
@@ -839,5 +852,5 @@ body {
     left: 0;
     top: 0;
     z-index: 111;
-    margin-top: 100px;
+    margin-top: 120px;
 }

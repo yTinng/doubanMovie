@@ -1,1 +1,1 @@
-angular.module("movieApp.indexCtrl",[]).controller("indexCtrl",["$scope","$location",function(e,o){e.searchName="",e.search=function(){$location.url("/search/"+e.searchName)}}]);
+angular.module("movieApp.indexCtrl",[]).controller("indexCtrl",["$scope","$location",function(e,r){e.searchName="",e.search=function(){r.url("/search/"+e.searchName)}}]);
