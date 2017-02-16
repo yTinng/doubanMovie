@@ -21,9 +21,10 @@ body {
     /* width: 100%; */
     /* padding: 5px; */
     margin-top: 10px;
-    margin-left: 15px;
-    width: 130px;
-    height: 72px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 135px;
+    height: 92px;
     box-sizing: border-box;
 }
 
@@ -52,14 +53,16 @@ body {
     border: none;
     margin-top: 20px;
     /* background: #07A7E1; */
-    background-image: linear-gradient(to bottom, #fff, #c14099 70%, #fff);
+    /* background-image: linear-gradient(to bottom, #fff, #c14099 70%, #fff); */
+    background-color: #c14099;
     color: #fff;
     cursor: pointer;
 }
 
 .top .nav {
     /* background: #07A7E1; */
-    background-image: linear-gradient(to bottom, #fff, #c14099 70%, #fff);
+    background-color: #c14099;
+    /* background-image: linear-gradient(to bottom, #fff, #c14099 70%, #fff); */
 }
 
 .top .nav ul {
@@ -76,6 +79,8 @@ body {
 
 .top .nav ul li.active {
     /* background: #0095bb; */
+    color: #c14099;
+    font-weight: bold;
     background-image: linear-gradient(to bottom, #fff, lightpink 70%, #fff);
 }
 
@@ -87,6 +92,8 @@ body {
 
 .top .nav ul li a:hover {
     /* background: #0095bb; */
+    color: #c14099;
+    font-weight: bold;
     background-image: linear-gradient(to bottom, #fff, lightpink 70%, #fff);
 
 }
@@ -177,8 +184,8 @@ body {
     border: none;
     border-radius: 4px;
     /* background: #2aabd2; */
-    background-image: linear-gradient(to bottom, #fff, #c14099 70%, #fff);
-
+    /* background-image: linear-gradient(to bottom, #fff, #c14099 70%, #fff); */
+    background-color: #c14099;
     width: 100px;
     height: 40px;
     color: #fff;
@@ -852,5 +859,5 @@ body {
     left: 0;
     top: 0;
     z-index: 111;
-    margin-top: 120px;
+    margin-top: 154px;
 }
